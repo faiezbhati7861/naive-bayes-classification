@@ -1,11 +1,9 @@
-
 import streamlit as st 
 from PIL import Image
 import pickle
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-import nltk
 st.set_option('deprecation.showfileUploaderEncoding', False)
 # Load the pickled model
 model = pickle.load(open('restuarantreviewnlp.pkl','rb'))   
